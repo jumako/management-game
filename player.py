@@ -4,18 +4,18 @@ class Player:
         self.level = 0
         self.money = 0
 
-    def getLevel(self):
+    def get_level(self):
         return self.level
-    def getMoney(self):
+    def get_money(self):
         return self.money
-    def addMoney(self, money):
+    def add_money(self, money):
         self.money += money
-    def removeMoney(self, money):
+    def remove_money(self, money):
         self.money -= money
-    def addLevel(self, level):
+    def add_level(self, level):
         self.level = level
 
-    def printPlayerStats(self):
+    def print_player_stats(self):
         # Print het geld van de speler in de cli
         print (f"{self.name} heeft een vermogen {self.money}")
 
